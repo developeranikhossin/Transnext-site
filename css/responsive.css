@@ -1,0 +1,58 @@
+/* Medium desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px)  {
+.container{width: 970px;}
+.single-features {
+	text-align: center;
+}
+.single-features img {
+	margin-left: 13%;
+}
+    
+}  
+    
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px)  {
+.container{width: 750px;}
+.slider-text {
+	margin-top: 55.3%;
+}
+        
+}
+    
+    
+    
+/* smaill mobile : 320px. */
+ @media (max-width: 767px) {
+.container {width:300px}
+    
+        
+}
+    
+    
+    
+/* Large mobile : 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width: 450px}
+
+.header-logo img {
+	width: 70%;
+}    
+
+.header-right button {
+	margin-top: -5px;
+}
+      
+.slider-text h1 {
+	font-size: 20px;
+}
+
+.single-features {
+	width: 434px;
+	height: 350px;
+}
+.single-features h2 {
+	margin-top: 20px;
+	margin-left: -20px;
+}
+
+}
